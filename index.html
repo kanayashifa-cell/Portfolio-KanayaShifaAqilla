@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kanaya Shifa Aqilla — Digital Business &amp; Corporate Strategy Portfolio</title>
+  <meta name="description" content="Portofolio Eksekutif Kanaya Shifa Aqilla — Corporate Strategy & Business Development Intern at PT Pertamina Lubricants & Mahasiswi Bisnis Digital ITS.">
+  <meta name="author" content="Kanaya Shifa Aqilla">
+
+  <meta property="og:title" content="Kanaya Shifa Aqilla — Digital Business & Strategy Portfolio">
+  <meta property="og:description" content="Corporate Strategy & Business Development Intern at PT Pertamina Lubricants. Digital Business Student at ITS.">
+  <meta property="og:type" content="website">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="nav-floating-wrapper">
+    <nav class="navbar-pill" aria-label="Main Navigation">
+      <a href="#" class="brand-logo" aria-label="Kanaya Shifa Aqilla Home">
+        KSA <span class="brand-dot"></span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">Profil</a></li>
+        <li><a href="#experience" class="nav-link">Pengalaman</a></li>
+        <li><a href="#certifications" class="nav-link">Sertifikasi</a></li>
+        <li><a href="#projects" class="nav-link">Proyek</a></li>
+        <li><a href="#skills" class="nav-link">Keahlian</a></li>
+        <li><a href="#education" class="nav-link">Pendidikan</a></li>
+      </ul>
+
+      <div style="display: flex; align-items: center; gap: 0.75rem;">
+        <a href="#contact" class="nav-cta magnetic-btn">Hubungi Saya</a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </nav>
+  </div>
+
+  <header id="hero" class="hero-section">
+    <div class="container hero-grid">
+      
+      <div class="hero-text-content gsap-hero-element">
+        <div class="hero-badge">
+          <span class="pulse-dot"></span>
+          Corporate Strategy &amp; Business Development Intern
+        </div>
+
+        <h1 class="hero-title">Kanaya Shifa Aqilla</h1>
+
+        <p class="hero-headline">
+          Mahasiswi <strong>Bisnis Digital (S1) di Institut Teknologi Sepuluh Nopember</strong> dengan fokus pada <strong>Strategi Korporat &amp; Pengembangan Bisnis Berbasis Data</strong>.
+        </p>
+
+        <p class="hero-description">
+          Menjembatani formulasi strategi bisnis dengan analitik teknis (Python &amp; SQL) untuk mengoptimalkan proses operasional korporat dan mendorong pertumbuhan bisnis yang terstruktur.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#contact" class="btn-primary magnetic-btn">
+            <span>Diskusi Kerja Sama</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#certifications" class="btn-secondary magnetic-btn">
+            <span>Galeri Sertifikasi (4+)</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 15l-2 5l9-9l-9-9l2 5l-7 4z"/></svg>
+          </a>
+        </div>
+
+        <div class="social-pills-row">
+          <a href="https://www.linkedin.com/in/kanaya-shifa-aqilla-2aa39822b" target="_blank" rel="noopener noreferrer" class="social-pill magnetic-btn">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            <span>LinkedIn</span>
+          </a>
+
+          <a href="https://github.com/kanayashifa-cell" target="_blank" rel="noopener noreferrer" class="social-pill magnetic-btn">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            <span>GitHub</span>
+          </a>
+
+          <a href="mailto:kanaya.shifa@gmail.com" class="social-pill magnetic-btn">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <span>kanaya.shifa@gmail.com</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-portrait-wrapper gsap-hero-element parallax-tilt-card">
+        <img src="assets/profile/naya.jpg" alt="Foto Asli Kanaya Shifa Aqilla" class="hero-portrait-img" fetchpriority="high" width="480" height="600">
+        <div class="hero-portrait-badge">
+          <span class="portrait-badge-role">Mahasiswi Bisnis Digital (S1)</span>
+          <span class="portrait-badge-univ">Institut Teknologi Sepuluh Nopember</span>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header gsap-reveal">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">Profil &amp; Ringkasan Eksekutif</h2>
+      </div>
+
+      <div class="about-bento-grid">
+        <div class="about-card gsap-reveal">
+          <p class="about-text">
+            Saya adalah seorang antusias di bidang operasi dan pengembangan bisnis dengan fokus kuat pada penggunaan data untuk mengoptimalkan proses korporat. Saat ini, saya memperluas keterampilan strategis saya sebagai <strong>Corporate Strategy &amp; Business Development Intern di PT Pertamina Lubricants</strong> (Gambir, Jakarta).
+          </p>
+          <p class="about-text" style="margin-bottom: 0;">
+            Sebagai mahasiswi Bisnis Digital semester 4 di <strong>Institut Teknologi Sepuluh Nopember</strong> dengan <strong>IPK 3.81 / 4.00</strong>, saya menjembatani celah antara strategi bisnis dan analitik teknologi. Selain eksekusi struktural dan koordinasi proyek, toolkit teknis saya mencakup pengetahuan dasar Python dan SQL untuk penarikan data dan analisis proses bisnis.
+          </p>
+        </div>
+
+        <div class="about-sidebar-bento">
+          <div class="sidebar-bento-box gsap-reveal">
+            <div class="stat-icon-box">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            </div>
+            <div>
+              <h4>Pendidikan Utama</h4>
+              <p>S1 Bisnis Digital — Institut Teknologi Sepuluh Nopember (IPK 3.81)</p>
+            </div>
+          </div>
+
+          <div class="sidebar-bento-box gsap-reveal">
+            <div class="stat-icon-box">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"/><line x1="9" y1="6" x2="9" y2="6"/><line x1="15" y1="6" x2="15" y2="6"/><line x1="9" y1="10" x2="9" y2="10"/><line x1="15" y1="10" x2="15" y2="10"/><path d="M10 16h4v6h-4z"/></svg>
+            </div>
+            <div>
+              <h4>Posisi Magang</h4>
+              <p>Business Development Intern at PT Pertamina Lubricants</p>
+            </div>
+          </div>
+
+          <div class="sidebar-bento-box gsap-reveal">
+            <div class="stat-icon-box">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/></svg>
+            </div>
+            <div>
+              <h4>Toolkit Teknis</h4>
+              <p>Python, SQL, Market Surveys &amp; Low-Code Platform</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="section">
+    <div class="container">
+      <div class="section-header gsap-reveal">
+        <span class="section-tag">Career Journey</span>
+        <h2 class="section-title">Pengalaman Kerja</h2>
+        <p class="section-subtitle">Pengalaman magang profesional dalam mengeksekusi analisis pasar dan strategi pertumbuhan korporat.</p>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item gsap-reveal">
+          <div class="timeline-dot"></div>
+          <div class="exp-card">
+            <div class="exp-header">
+              <div>
+                <h3 class="exp-role">Business Development Intern</h3>
+                <div class="exp-company">PT Pertamina Lubricants (Internship)</div>
+              </div>
+              <span class="exp-date">Jul 2026 – Present &bull; On-site (Gambir, Jakarta)</span>
+            </div>
+
+            <ul class="exp-bullet-list">
+              <li>
+                <span class="bullet-icon-box">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                </span>
+                <span><strong>Formulasi Strategi &amp; Ekspansi Bisnis:</strong> Menerjemahkan dataset bisnis kompleks menjadi strategi ekspansi dan kerangka kerja operasional terstruktur untuk mendukung pengambilan keputusan korporat berbasis data.</span>
+              </li>
+              <li>
+                <span class="bullet-icon-box">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                </span>
+                <span><strong>Pipeline Pengumpulan Data Pasar:</strong> Merancang survei pasar komprehensif dan mengarahkan briefing pemangku kepentingan untuk memastikan penarikan data berkualitas tinggi dari lapangan.</span>
+              </li>
+              <li>
+                <span class="bullet-icon-box">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                </span>
+                <span><strong>Analitik Teknis &amp; Optimasi Proses:</strong> Memanfaatkan latar belakang Bisnis Digital ITS serta toolkit teknis Python &amp; SQL untuk analisis dinamika pasar dan optimasi alur kerja internal.</span>
+              </li>
+            </ul>
+
+            <div class="skill-pills">
+              <span class="pill accent">Business Strategy</span>
+              <span class="pill accent">Business Development</span>
+              <span class="pill">Data Analysis</span>
+              <span class="pill">Market Research</span>
+              <span class="pill">Digital Media</span>
+              <span class="pill">Teamwork</span>
+              <span class="pill">Data Entry</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="certifications" class="section">
+    <div class="container">
+      <div class="section-header gsap-reveal">
+        <span class="section-tag">Credentials &amp; Evidence</span>
+        <h2 class="section-title">Galeri Lisensi &amp; Sertifikasi</h2>
+        <p class="section-subtitle">Gunakan tab filter interaktif di bawah untuk menyaring lisensi berdasarkan kategori keahlian.</p>
+      </div>
+
+      <div class="filter-tabs-row gsap-reveal">
+        <button type="button" class="filter-tab-btn active" data-filter="all">
+          <span>Semua Sertifikat (4)</span>
+        </button>
+        <button type="button" class="filter-tab-btn" data-filter="data">
+          <span>Data Analytics</span>
+        </button>
+        <button type="button" class="filter-tab-btn" data-filter="marketing">
+          <span>Strategy &amp; Marketing</span>
+        </button>
+        <button type="button" class="filter-tab-btn" data-filter="leadership">
+          <span>Leadership &amp; Tech</span>
+        </button>
+      </div>
+
+      <div class="cert-gallery-grid">
+        <div class="cert-visual-card parallax-tilt-card gsap-reveal" 
+             data-category="data"
+             data-cert-img="assets/certificates/revou-data-analytics.jpg"
+             data-cert-title="Intro to Data Analytics"
+             data-cert-subtitle="RevoU — Diterbitkan 23 Januari 2026"
+             data-cert-meta="Credential ID: DAMC-190126-01-1-00353. Ditandatangani oleh Matteo Sutto, CEO & Co-founder PT Revolusi Cita Edukasi. Keterampilan yang divalidasi: Data Analysis, Online Data Entry, SQL.">
+          <div class="cert-preview-frame">
+            <img src="assets/certificates/revou-data-analytics.jpg" alt="Sertifikat RevoU Data Analytics" class="cert-preview-img" loading="eager" fetchpriority="high" width="400" height="300">
+            <span class="cert-overlay-tag">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+              <span>Perbesar</span>
+            </span>
+          </div>
+          <div class="cert-card-body">
+            <h3 class="cert-card-title">Intro to Data Analytics</h3>
+            <div class="cert-card-issuer">RevoU Mini Course</div>
+            <div class="cert-card-meta">Diterbitkan Jan 2026 &bull; ID: DAMC-190126-01-1-00353</div>
+            <div class="cert-card-action">
+              <span>Buka Sertifikat Lengkap</span> &rarr;
+            </div>
+          </div>
+        </div>
+
+        <div class="cert-visual-card parallax-tilt-card gsap-reveal" 
+             data-category="marketing"
+             data-cert-img="assets/certificates/markplus-entrepreneurial-marketing.jpg"
+             data-cert-title="Entrepreneurial Marketing Certification"
+             data-cert-subtitle="MARKPLUS, CORP. — Diterbitkan 6 November 2025"
+             data-cert-meta="Credential ID: 224371. Ditandatangani oleh Yosanova Savitry, Chief Executive Officer MarkPlus Institute. Keterampilan yang divalidasi: Marketing, Marketing Strategy, Entrepreneurship.">
+          <div class="cert-preview-frame">
+            <img src="assets/certificates/markplus-entrepreneurial-marketing.jpg" alt="Sertifikat MarkPlus Marketing" class="cert-preview-img" loading="eager" fetchpriority="high" width="400" height="300">
+            <span class="cert-overlay-tag">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+              <span>Perbesar</span>
+            </span>
+          </div>
+          <div class="cert-card-body">
+            <h3 class="cert-card-title">Entrepreneurial Marketing</h3>
+            <div class="cert-card-issuer">MARKPLUS, CORP.</div>
+            <div class="cert-card-meta">Diterbitkan Nov 2025 &bull; ID: 224371</div>
+            <div class="cert-card-action">
+              <span>Buka Sertifikat Lengkap</span> &rarr;
+            </div>
+          </div>
+        </div>
+
+        <div class="cert-visual-card parallax-tilt-card gsap-reveal" 
+             data-category="leadership"
+             data-cert-img="assets/certificates/zoho-young-creators.jpg"
+             data-cert-title="Young Creators Program"
+             data-cert-subtitle="Zoho Creator — Diterbitkan 9 Desember 2024"
+             data-cert-meta="Ditandatangani oleh Hyther Nizam, Vice President Zoho. Memberikan kontribusi outstanding dan mendemonstrasikan profisiensi dalam teknologi low-code serta kemampuan pemecahan masalah.">
+          <div class="cert-preview-frame">
+            <img src="assets/certificates/zoho-young-creators.jpg" alt="Sertifikat Zoho Low-Code" class="cert-preview-img" loading="eager" fetchpriority="high" width="400" height="300">
+            <span class="cert-overlay-tag">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+              <span>Perbesar</span>
+            </span>
+          </div>
+          <div class="cert-card-body">
+            <h3 class="cert-card-title">Young Creators Program</h3>
+            <div class="cert-card-issuer">Zoho Creator Platform</div>
+            <div class="cert-card-meta">Diterbitkan Des 2024 &bull; Low-Code Technology</div>
+            <div class="cert-card-action">
+              <span>Buka Sertifikat Lengkap</span> &rarr;
+            </div>
+          </div>
+        </div>
+
+        <div class="cert-visual-card parallax-tilt-card gsap-reveal" 
+             data-category="leadership"
+             data-cert-img="assets/certificates/aiesec-youth-today.jpg"
+             data-cert-title="Youth Today Delegate"
+             data-cert-subtitle="AIESEC in Surabaya — Diterbitkan 7 September 2024"
+             data-cert-meta="No. Sertifikat: 700/SBY/JA.YT.D/CERTIFICATE/IX/2024. Diberikan atas kontribusi sebagai delegasi dalam 'Youth Today: From Spark to Flame: Ignite Up Your Leadership Journey'. Keterampilan: Organizational Leadership.">
+          <div class="cert-preview-frame">
+            <img src="assets/certificates/aiesec-youth-today.jpg" alt="Sertifikat AIESEC Youth Today" class="cert-preview-img" loading="eager" fetchpriority="high" width="400" height="300">
+            <span class="cert-overlay-tag">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+              <span>Perbesar</span>
+            </span>
+          </div>
+          <div class="cert-card-body">
+            <h3 class="cert-card-title">Youth Today Delegate</h3>
+            <div class="cert-card-issuer">AIESEC in Surabaya</div>
+            <div class="cert-card-meta">Diterbitkan Sep 2024 &bull; Organizational Leadership</div>
+            <div class="cert-card-action">
+              <span>Buka Sertifikat Lengkap</span> &rarr;
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-header gsap-reveal">
+        <span class="section-tag">Featured Initiatives</span>
+        <h2 class="section-title">Proyek &amp; Publikasi Pilihan</h2>
+        <p class="section-subtitle">Inisiatif publikasi majalah departemen dan kepemimpinan kompetisi rencana bisnis nasional.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card parallax-tilt-card gsap-reveal">
+          <div class="project-header-art project-art-berisi">
+            <span class="project-tag-badge">Department Publication</span>
+            <h3 class="project-art-title">BERISI 17.0</h3>
+            <span class="project-art-sub">Official Departmental Magazine &bull; Field Reporter</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">BERISI 17.0 Publication</h3>
+            <div class="project-meta">Field Reporter &bull; Institut Teknologi Sepuluh Nopember &bull; Apr 2026 – Present</div>
+            <p class="project-desc">
+              Bertugas sebagai wartawan lapangan (field reporter) untuk majalah publikasi resmi departemen. Melakukan wawancara terstruktur dengan berbagai pemangku kepentingan untuk menyusun artikel korporat dan akademis yang menarik.
+            </p>
+
+            <div class="skill-pills" style="margin-bottom: 1.5rem;">
+              <span class="pill">Public Speaking</span>
+              <span class="pill">Interviewing</span>
+              <span class="pill">Writing</span>
+              <span class="pill">Interview Preparation</span>
+            </div>
+
+            <button class="evidence-btn magnetic-btn" 
+                    data-cert-img="assets/certificates/berisi-publication-editor.jpg"
+                    data-cert-title="BERISI 17.0 Publication Evidence"
+                    data-cert-subtitle="Bukti Sertifikat Publikasi Departemen ITS"
+                    data-cert-meta="Catatan: Sertifikat diterbitkan atas nama Hilyatul Aulia (Pimpinan Redaksi BERISI 17.0). Kanaya Shifa Aqilla bertindak sebagai Field Reporter dalam tim redaksi tersebut.">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+              <span>Lihat Bukti Sertifikat Redaksi</span> &rarr;
+            </button>
+          </div>
+        </article>
+
+        <article class="project-card parallax-tilt-card gsap-reveal">
+          <div class="project-header-art project-art-manifest">
+            <span class="project-tag-badge">National Competition</span>
+            <h3 class="project-art-title">MANIFEST 2025</h3>
+            <span class="project-art-sub">Business Plan Competition &bull; Vice Head of BPC</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Business Plan Competition (BPC) - MANIFEST</h3>
+            <div class="project-meta">Vice Head of BPC Subdivision &bull; Associated with ITS &bull; Completed Jan 2026</div>
+            <p class="project-desc">
+              Memimpin eksekusi end-to-end kompetisi rencana bisnis skala nasional. Bertanggung jawab atas penyusunan kerangka kerja utama kompetisi dan mengelola tim proyek untuk memastikan kelancaran operasional.
+            </p>
+
+            <div class="skill-pills" style="margin-bottom: 1.5rem;">
+              <span class="pill">Leadership</span>
+              <span class="pill">Concept Development</span>
+              <span class="pill">Project Management</span>
+              <span class="pill">Project Planning</span>
+            </div>
+
+            <button class="evidence-btn magnetic-btn" 
+                    data-cert-img="assets/certificates/manifest-vice-head.jpg"
+                    data-cert-title="Certificate of Appreciation — MANIFEST 2025"
+                    data-cert-subtitle="Diberikan kepada Kanaya Shifa Aqilla sebagai Vice Head of BPC Subdivision"
+                    data-cert-meta="No. Sertifikat: 021/SER/MANIFEST/BMSA/I/2026. Ditandatangani oleh Project Officer, Kepala Departemen Manajemen Bisnis ITS, dan Dekan Fakultas Desain Kreatif dan Bisnis Digital.">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <span>Lihat Sertifikat Penghargaan (Vice Head)</span> &rarr;
+            </button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="section-header gsap-reveal">
+        <span class="section-tag">Competencies</span>
+        <h2 class="section-title">Keahlian &amp; Toolkit</h2>
+        <p class="section-subtitle">Kombinasi formulasi strategi bisnis, analitik data teknis, serta kemampuan kepemimpinan.</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-category-card gsap-reveal">
+          <h3 class="skill-cat-title">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+            <span>Business &amp; Strategy</span>
+          </h3>
+          <div class="skill-pills">
+            <span class="pill accent">Business Strategy</span>
+            <span class="pill accent">Business Development</span>
+            <span class="pill">Market Research</span>
+            <span class="pill">Concept Development</span>
+            <span class="pill">Marketing Strategy</span>
+            <span class="pill">Entrepreneurship</span>
+          </div>
+        </div>
+
+        <div class="skill-category-card gsap-reveal">
+          <h3 class="skill-cat-title">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            <span>Data &amp; Tech Analytics</span>
+          </h3>
+          <div class="skill-pills">
+            <span class="pill accent">Data Analysis</span>
+            <span class="pill accent">Python</span>
+            <span class="pill accent">SQL</span>
+            <span class="pill">Data Entry</span>
+            <span class="pill">Zoho Creator Low-Code</span>
+            <span class="pill">Process Optimization</span>
+          </div>
+        </div>
+
+        <div class="skill-category-card gsap-reveal">
+          <h3 class="skill-cat-title">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 1 0 7.75"/></svg>
+            <span>Leadership &amp; Communication</span>
+          </h3>
+          <div class="skill-pills">
+            <span class="pill accent">Leadership</span>
+            <span class="pill">Project Management</span>
+            <span class="pill">Project Planning</span>
+            <span class="pill">Public Speaking</span>
+            <span class="pill">Interviewing</span>
+            <span class="pill">Teamwork</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="community" class="section">
+    <div class="container">
+      <div class="section-header gsap-reveal">
+        <span class="section-tag">Social Impact</span>
+        <h2 class="section-title">Kegiatan Relawan &amp; Komunitas</h2>
+        <p class="section-subtitle">Pengabdian masyarakat dan proyek literasi bisnis/digital di Lombok dan Surabaya.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="exp-card community-card gsap-reveal">
+          <div class="exp-header">
+            <div>
+              <h3 class="exp-role">Community Development Member</h3>
+              <div class="exp-company">Participatory Community Development</div>
+            </div>
+            <span class="exp-date">Aug 2025 – Present &bull; Lombok Tengah, NTB</span>
+          </div>
+          <p class="exp-desc">
+            Ditempatkan di Desa Sukarara, Lombok Tengah. Merancang dan memberikan lokakarya literasi bisnis dasar untuk pemuda lokal guna memupuk pemikiran kewirausahaan sejak dini. Menyampaikan sesi literasi digital untuk meningkatkan kesadaran kritis tentang risiko judi online dan pinjaman online.
+          </p>
+          <button class="evidence-btn magnetic-btn" 
+                  data-cert-img="assets/certificates/pcd-community-development.jpg"
+                  data-cert-title="Sertifikat Anggota Divisi Community Development"
+                  data-cert-subtitle="Participatory Community Development — Sustainable Development #2"
+                  data-cert-meta="No. Sertifikat: 007/SD-2/PCD/2025. Ditandatangani oleh H. Saman Budi, S.Ag (Kepala Desa Sukarara) dan Hisyam MJ, S.Sos (CEO PCD).">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <span>Lihat Sertifikat Sukarara</span> &rarr;
+          </button>
+        </article>
+
+        <article class="exp-card community-card gsap-reveal">
+          <div class="exp-header">
+            <div>
+              <h3 class="exp-role">Volunteer</h3>
+              <div class="exp-company">Peduly (Social Services)</div>
+            </div>
+            <span class="exp-date">Mar 2025 – Present &bull; Surabaya, Jawa Timur</span>
+          </div>
+          <p class="exp-desc">
+            Terlibat langsung dalam penjangkauan masyarakat dengan mengunjungi rumah pasien untuk menyusun menu buka puasa bersama "Ruang Pasien". Memfasilitasi kegiatan pembelajaran interaktif dengan mengajar anak-anak membongkar-pasang balok mainan dan mengelola logistik acara.
+          </p>
+          <button class="evidence-btn magnetic-btn" 
+                  data-cert-img="assets/certificates/peduly-volunteer.jpg"
+                  data-cert-title="Volunteer Certificate — Peduly"
+                  data-cert-subtitle="A Ramadan Activity Build Bricks & Sharing Takjil With Ruang Pasien"
+                  data-cert-meta="No. Sertifikat: 13.13128/PDLY/SRT/VLTR/III/2025. Ditandatangani oleh Salsabilla Wardani (Head of Committee) dan Zainal Multazam (Founder of Peduly).">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+            <span>Lihat Sertifikat Volunteer Peduly</span> &rarr;
+          </button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="section">
+    <div class="container">
+      <div class="section-header gsap-reveal">
+        <span class="section-tag">Academic Journey</span>
+        <h2 class="section-title">Pendidikan</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-category-card academic-card gsap-reveal">
+          <div class="academic-badge-tag">Academic Excellence</div>
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.5rem;">
+            <h3 class="exp-role" style="font-size: 1.3rem;">Institut Teknologi Sepuluh Nopember</h3>
+            <span class="exp-date">2024 – 2028 (Expected)</span>
+          </div>
+          <div class="exp-company" style="margin-bottom: 0.5rem;">S1 Bisnis Digital (Bachelor of Science in Digital Business)</div>
+          <p class="exp-desc" style="font-size: 0.95rem; margin-bottom: 1.25rem;">
+            Fokus Studi: Business Automation, Technology, Data Analytics, Process Optimization, and Strategic Management.
+          </p>
+          <div class="gpa-highlight-badge">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <span>IPK / Grade: <strong>3.81 / 4.00</strong> (Skala 4.00)</span>
+          </div>
+        </div>
+
+        <div class="skill-category-card gsap-reveal">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.5rem;">
+            <h3 class="exp-role" style="font-size: 1.25rem;">SMAN 5 Bogor</h3>
+            <span class="exp-date">2022</span>
+          </div>
+          <div class="exp-company" style="margin-bottom: 0.5rem;">Pendidikan Menengah Atas (High School Diploma)</div>
+          <p class="exp-desc" style="font-size: 0.95rem;">
+            Fokus Sastra &amp; Bahasa Inggris (English Language and Literature).
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact" class="footer-contact">
+    <div class="container">
+      <div class="contact-card gsap-reveal">
+        <span class="section-tag">Get in Touch</span>
+        <h2 class="section-title" style="margin-bottom: 1rem;">Mari Terhubung &amp; Berkolaborasi</h2>
+        <p class="section-subtitle" style="margin: 0 auto 2rem;">
+          Saya terbuka untuk berdiskusi seputar proyek pengembangan bisnis, analisis data korporat, maupun peluang magang profesional.
+        </p>
+
+        <div class="contact-buttons-grid">
+          <a href="mailto:kanaya.shifa@gmail.com" class="contact-action-btn magnetic-btn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <span>kanaya.shifa@gmail.com</span>
+          </a>
+
+          <a href="https://www.linkedin.com/in/kanaya-shifa-aqilla-2aa39822b" target="_blank" rel="noopener noreferrer" class="contact-action-btn magnetic-btn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            <span>LinkedIn Profile</span>
+          </a>
+
+          <a href="https://github.com/kanayashifa-cell" target="_blank" rel="noopener noreferrer" class="contact-action-btn magnetic-btn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            <span>GitHub Repository</span>
+          </a>
+        </div>
+
+        <p class="copyright-text">
+          &copy; 2026 Kanaya Shifa Aqilla. Dibuat dengan dedikasi untuk pengembangan bisnis &amp; analitik digital.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <dialog id="certLightbox" class="lightbox-modal" closedby="any" aria-labelledby="lightboxTitle">
+    <div class="lightbox-content">
+      <button type="button" class="lightbox-close-btn" id="closeLightboxBtn" aria-label="Tutup modal sertifikat">&times;</button>
+      
+      <div class="lightbox-img-container">
+        <img id="lightboxImg" src="" alt="Pratinjau Sertifikat Ukuran Penuh" class="lightbox-img">
+      </div>
+
+      <div class="lightbox-body">
+        <h3 id="lightboxTitle" class="lightbox-title">Sertifikat</h3>
+        <div id="lightboxSubtitle" class="lightbox-subtitle">Metadata Sertifikat</div>
+        <p id="lightboxMeta" class="lightbox-meta">Detail keterangan sertifikat.</p>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
