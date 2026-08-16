@@ -12,7 +12,7 @@ Proyek ini adalah website portofolio eksekutif interaktif yang dirancang untuk m
 
 ## Tautan Penting Pengumpulan Tugas
 
-- **URL Live Website:** [https://portfolio-kanayashifaaqilla.vercel.app](https://portfolio-kanayashifaaqilla.vercel.app) *(Status: Belum deploy)*
+- **URL Live Website:** [https://portfolio-kanaya-shifa-aqilla.vercel.app](https://portfolio-kanaya-shifa-aqilla.vercel.app/)
 - **Link Repositori GitHub:** [https://github.com/kanayashifa-cell/Portfolio-KanayaShifaAqilla.git](https://github.com/kanayashifa-cell/Portfolio-KanayaShifaAqilla.git)
 
 ---
